@@ -1,0 +1,54 @@
+### ALIAS FILE
+
+
+alias {c,cls}='clear'
+alias q='exit'
+alias s='sudo'
+
+alias pwdcp='pwd | pbcopy'
+alias cdpst='cd $(pbpaste)'
+
+alias {l,ls}='ls --color=auto'
+alias ll='ls -lAh --color=auto'
+alias cp='cp -vi'
+alias mv='mv -vi'
+# alias rm='rm -vi'
+
+alias ,='cd ~'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias aliases='vim ~/.aliases'
+alias rc='vim ~./zshrc'
+alias rcrun='./.zshrc'
+
+alias pingg='ping 8.8.8.8'
+
+## TOOLS ##
+# python
+alias {py,python}='python3'
+alias {pip}='pip3'
+
+# git
+alias g='git'
+alias ga='git add'
+alias gst='git status'
+alias gcm='git commit -m'
+alias gca='git commit -am'
+
+# docker
+alias dps='docker ps'
+alias dis='docker images'
+alias drm='docker rm'
+alias drmi='docker rmi'
+
+# terraform
+alias tf='terraform'
+
+## MAC OS ##
+# brew
+alias brewup='brew update; brew upgrade; brew cleanup; brew doctor' 
+# yabai/skhd 
+alias ybstart='brew services start yabai' # ; brew services start skhd'
+alias ybstop='brew services stop yabai'   # ; brew services stop skhd'
